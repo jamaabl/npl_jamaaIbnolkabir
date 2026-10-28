@@ -1,0 +1,27 @@
+[project]
+name = "projet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jamaabl", email = "jamaaibnolkabir@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "customtkinter>=6.0.0",
+    "datasets>=5.1.0",
+    "datasketch>=2.0.0",
+    "nltk>=3.10.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "pypdf>=6.21.2",
+    "python-docx>=1.2.0",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+projet = "projet:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"

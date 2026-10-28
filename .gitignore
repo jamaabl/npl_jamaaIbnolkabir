@@ -1,0 +1,10 @@
+# Dossiers lourds ou générés
+data/
+.venv/
+__pycache__/
+*.pyc
+historique.json
+
+# Fichiers de configuration locaux
+.env
+.vscode/
